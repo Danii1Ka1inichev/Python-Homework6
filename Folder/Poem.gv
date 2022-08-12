@@ -1,0 +1,20 @@
+// Poem
+digraph {
+	x [label="Dot Cтихотворения \"Мир за гранью\" "]
+	a [label="Dot Кружась, сияет вихрь реальности и снов,"]
+	b [label="Dot 1"]
+	c [label="Dot Вселенная живёт, творя и вновь губя."]
+	d [label="Dot 2"]
+	e [label="Dot У космоса есть много голосов,"]
+	f [label="Dot 3"]
+	g [label="Dot Он полон тайн. И он зовёт тебя."]
+	h [label="Dot 4"]
+	b -> a
+	d -> c
+	f -> e
+	h -> g
+	x -> b
+	x -> d
+	x -> f
+	x -> h
+}
